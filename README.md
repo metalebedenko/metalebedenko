@@ -1,25 +1,27 @@
-# Привет, я Серго 👋
+# Привет, я Серго
 
-Придумываю и собираю прикладные проекты вместе с ИИ. Смотрю на них с предпринимательской и инженерной стороны: кому это пригодится, как должно работать и чем проверить результат.
+[English](README.en.md)
 
-Мне интересно, что получится, если дать привычной вещи ещё одну работу: кнопкам наушников — управлять диктовкой, а новостям — стать личным радио. Здесь собраны такие эксперименты, небольшие утилиты и разборы данных.
+Делаю ботов, сайты и приложения для компьютера. Автоматизирую задачи, которые приходится повторять вручную, и разбираю данные, когда нужно принять решение.
 
-## Что можно посмотреть
+[Обсудить проект в Telegram · @lebedovichh](https://t.me/lebedovichh)
 
-**[EarPods AI Keys](https://github.com/metalebedenko/earpods-ai-keys)** — пульт наушников как инструмент для ввода текста. Кнопки USB-C EarPods запускают диктовку, удаляют символы и нажимают Enter. Нативное приложение для macOS на Swift, с настраиваемыми кнопками и готовой preview-версией.
+## Проекты
 
-**[micromanager](https://github.com/metalebedenko/micromanager)** — «руки» для ИИ. Экспериментальный MCP-сервер на Rust для команд и файловых операций: с подтверждениями владельца, ограничениями доступа, терминальным интерфейсом и соединением между компьютерами.
+**Investment Digest Bot — дайджест в PDF**  
+Бот находит материалы об инвестиционных идеях и собирает из них выпуск. Его можно прочитать перед отправкой в Telegram. [Полистать демовыпуск на вымышленных данных, 7 страниц](https://github.com/metalebedenko/investment-digest-bot/blob/main/docs/demo-digest.pdf)
 
-**[EasySW](https://github.com/metalebedenko/easySW)** — для случаев, когда `Ghbdtn` должно было стать «Привет». Небольшая Windows-утилита исправляет русскую и английскую раскладку выделенного текста по горячей клавише. C++/Win32, готовый исполняемый файл.
+**3D Landings — сайты для заказа деталей**  
+Заменить сломанную деталь, заказать пробную партию или изготовить прототип — для каждого случая я сделал свою страницу. В одном из демо можно загрузить 3D-модель и получить предварительный расчёт. [Посмотреть главный экран](https://github.com/metalebedenko/3d-landings-showcase/blob/main/docs/preview.png) · [Как запустить демо локально](https://github.com/metalebedenko/3d-landings-showcase)
 
-**[Радио Бубубу для Android](https://github.com/metalebedenko/Radio_bububu_android)** — эксперимент с радио из новостных сайтов и публичных Telegram-каналов. Извлечение статей, подготовка текста, озвучка Silero и распознавание голосовых заметок с GigaAM. Некоммерческий архив прототипа: сохранены подход, результаты проверок и известные ограничения.
+**EarPods AI Keys — диктовка с кнопки наушников**  
+На Mac кнопками проводных USB-C EarPods можно включить диктовку, стереть символ или нажать Enter. Пользователь сам выбирает, что делает каждая кнопка. [Посмотреть настройки](https://github.com/metalebedenko/earpods-ai-keys/blob/main/docs/media/button-settings.png) · [Скачать предварительную версию для Apple silicon](https://github.com/metalebedenko/earpods-ai-keys/releases/tag/v0.1.0-preview.3)
 
-**[Investment Digest Bot](https://github.com/metalebedenko/investment-digest-bot)** — эксперимент с выпуском PDF-дайджеста: поиск, модель, оформление и отдельная отправка в Telegram. Для знакомства есть автономное демо на синтетических данных.
+**Кафе и рестораны Москвы — цены по округам**  
+Разобрал выборку из 8 402 записей. В центре цены оказались выше, чем на окраинах, а примерно 38% заведений в выборке относились к сетям. [Выводы](https://github.com/metalebedenko/eda-horeca-moscow#ключевые-результаты) · [Графики и расчёты](https://github.com/metalebedenko/eda-horeca-moscow/blob/main/EDA_HoReCa_Moscow.ipynb)
 
-## Немного аналитики
+**mri-review — помощник для расшифровки МРТ**  
+Исследовательский навык для ИИ-агента. Если есть заключение, агент объясняет формулировки врача простыми словами. Если есть снимки, он помогает разобрать, что видно на конкретном кадре и что стоит уточнить у рентгенолога. [Как устроен навык](https://github.com/metalebedenko/mri-review)
 
-[Витрина e-commerce на PostgreSQL](https://github.com/metalebedenko/vsetut-ecommerce-analytics-mart) · [Заведения Москвы](https://github.com/metalebedenko/eda-horeca-moscow) · [Подготовка данных о видеоиграх](https://github.com/metalebedenko/games_data_preprocessing)
-
----
-
-**In English:** I build practical software with AI-assisted development, combining a business perspective with hands-on prototyping. My projects explore agent tools, local speech pipelines, native utilities and data analysis. Each repository describes its scope, results and limits.
+**micromanager — доступ ИИ-агента к компьютеру**  
+Владелец выбирает, к каким файлам дать доступ. Когда агент хочет изменить файл или выполнить команду, владелец может одобрить или отклонить запрос. [Как это работает](https://github.com/metalebedenko/micromanager)
