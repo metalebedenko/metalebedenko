@@ -18,7 +18,7 @@ Replacing a broken part, ordering a small trial batch and making a prototype eac
 On a Mac, you can use the buttons on wired USB-C EarPods to start dictation, delete a character or press Enter. You choose what each button does. [See the settings](https://github.com/metalebedenko/earpods-ai-keys/blob/main/docs/media/button-settings.png) · [Download the Apple silicon preview](https://github.com/metalebedenko/earpods-ai-keys/releases/tag/v0.1.0-preview.3)
 
 **Moscow cafés and restaurants — prices by district**  
-I analysed 8,402 records. Prices were higher in the city centre than in outlying districts, and about 38% of the venues in this sample belonged to chains. [Read the findings in Russian](https://github.com/metalebedenko/eda-horeca-moscow#ключевые-результаты) · [Charts and calculations](https://github.com/metalebedenko/eda-horeca-moscow/blob/main/EDA_HoReCa_Moscow.ipynb)
+I analysed 8,402 records on Moscow venues from summer 2022. Prices were higher in the city centre than in outlying districts, and about 38% of the venues in this sample belonged to chains. [Read the findings in Russian](https://github.com/metalebedenko/eda-horeca-moscow#ключевые-результаты) · [Charts and calculations](https://github.com/metalebedenko/eda-horeca-moscow/blob/main/EDA_HoReCa_Moscow.ipynb)
 
 **mri-review — an assistant for reviewing MRI scans**  
 A research skill for an AI agent. If you have a written report, the agent explains the radiologist’s wording in plain language. If you have images, it helps you examine a particular frame and prepare questions for a radiologist. [Explore the skill](https://github.com/metalebedenko/mri-review)
