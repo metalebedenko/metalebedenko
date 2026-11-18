@@ -2,9 +2,9 @@
 
 [По-русски](README.md)
 
-I design applied AI systems. Python is my main language. I start by defining the outcome someone needs and choosing examples to check it against. I then pick a larger or smaller model, weighing quality, latency and cost. I use model APIs and run open models locally.
+When I talk to someone about automating a task, I usually ask to see a typical example. That might be the material they gathered by hand and the report they sent to a colleague.
 
-In my research digest bot, the model drafts the content. Python validates the structure and builds the PDF. An issue goes into the sent history only after Telegram accepts it.
+With that example in front of us, we can compare models. Would a small model be enough? What would a larger one do better with the same inputs? How much would each finished report cost? If the documents need to stay with their owner, I look at open models that can run locally.
 
 [Discuss a project on Telegram · @lebedovichh](https://t.me/lebedovichh)
 
