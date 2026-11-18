@@ -2,7 +2,9 @@
 
 [По-русски](README.md)
 
-I design applied AI systems. My projects include a bot that produces research digests and a tool that lets people control what an AI agent does on their computer.
+I design applied AI systems. Python is my main language. I start by defining the outcome someone needs and choosing examples to check it against. I then pick a larger or smaller model, weighing quality, latency and cost. I use model APIs and run open models locally.
+
+In my research digest bot, the model drafts the content. Python validates the structure and builds the PDF. An issue goes into the sent history only after Telegram accepts it.
 
 [Discuss a project on Telegram · @lebedovichh](https://t.me/lebedovichh)
 
