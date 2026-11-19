@@ -2,28 +2,28 @@
 
 [По-русски](README.md)
 
-When I talk to someone about automating a task, I usually ask to see a typical example. That might be the material they gathered by hand and the report they sent to a colleague.
+When we talk about automating a task, I ask to see how you do it today. For a report, we look at the source material and the document you sent to a colleague.
 
-With that example in front of us, we can compare models. Would a small model be enough? What would a larger one do better with the same inputs? How much would each finished report cost? If the documents need to stay with their owner, I look at open models that can run locally.
+I compare a small model with a larger one on the same inputs. I check their answers against the sources and work out what a single report would cost with each. If the documents need to stay with you, I look for an open model you can run locally.
 
 [Discuss a project on Telegram · @lebedovichh](https://t.me/lebedovichh)
 
 ## Projects
 
-**Investment Digest Bot — a research digest in PDF**  
-The bot finds material on investment ideas and puts it together as an issue. You can read it before sending it to Telegram. [Browse a seven-page sample with fictional data](https://github.com/metalebedenko/investment-digest-bot/blob/main/docs/demo-digest.pdf) · [Why PDF generation and delivery are separate](https://github.com/metalebedenko/investment-digest-bot#why-pdf-generation-and-delivery-are-separate)
+**Investment Digest Bot — a digest for Telegram**  
+The bot finds material on investment ideas and compiles it into a PDF. You can read the issue before sending it. [Sample issue with fictional data (7 pages)](https://github.com/metalebedenko/investment-digest-bot/blob/main/docs/demo-digest.pdf) · [How Telegram delivery works](https://github.com/metalebedenko/investment-digest-bot#why-pdf-generation-and-delivery-are-separate)
 
-**3D Landings — websites for ordering custom parts**  
-Replacing a broken part, ordering a small trial batch and making a prototype each call for different information. I built a page for each case. One demo lets you upload a 3D model for a rough estimate. [See the opening screen](https://github.com/metalebedenko/3d-landings-showcase/blob/main/docs/preview.png) · [Run the demo locally](https://github.com/metalebedenko/3d-landings-showcase)
+**3D Landings — three demos for ordering custom parts**  
+I built separate pages for replacing a broken part, ordering a trial batch and making a prototype. One of them lets you upload an STL model and get a rough estimate in your browser. [Screenshot of the home page](https://github.com/metalebedenko/3d-landings-showcase/blob/main/docs/preview.png) · [Run the demos locally](https://github.com/metalebedenko/3d-landings-showcase/blob/main/README.en.md#try-the-interactive-version)
 
-**EarPods AI Keys — dictation from an earphone button**  
-The buttons on wired USB-C EarPods let you start dictation, delete a character and press Enter on a Mac. This workflow was verified on two physical Macs. You can choose what each button does. [Button settings](https://github.com/metalebedenko/earpods-ai-keys/blob/main/docs/media/button-settings.png) · [Verification on two Macs](https://github.com/metalebedenko/earpods-ai-keys#dictation-without-the-keyboard) · [Download the Apple silicon preview](https://github.com/metalebedenko/earpods-ai-keys/releases/tag/v0.1.0-preview.3)
+**EarPods AI Keys — Mac dictation from an earphone remote**  
+On USB-C EarPods, the centre button starts macOS Dictation, minus deletes a character and plus acts as Enter. This setup was verified on two Macs. [Button settings](https://github.com/metalebedenko/earpods-ai-keys/blob/main/docs/media/button-settings.png) · [What happens when you reconnect the earphones](https://github.com/metalebedenko/earpods-ai-keys#dictation-without-the-keyboard) · [Download the Apple silicon preview](https://github.com/metalebedenko/earpods-ai-keys/releases/tag/v0.1.0-preview.3)
 
 **Moscow cafés and restaurants — prices by district**  
-I analysed 8,402 records on Moscow venues from summer 2022. Prices were higher in the city centre than in outlying districts, and about 38% of the venues in this sample belonged to chains. [Read the findings in Russian](https://github.com/metalebedenko/eda-horeca-moscow#ключевые-результаты) · [Charts and calculations](https://github.com/metalebedenko/eda-horeca-moscow/blob/main/EDA_HoReCa_Moscow.ipynb)
+I compared prices across districts using 8,402 records from summer 2022. Prices were higher in the city centre than on the outskirts. About 38% of the venues in the sample were part of a chain. [Findings (in Russian)](https://github.com/metalebedenko/eda-horeca-moscow#ключевые-результаты) · [Charts and calculations](https://github.com/metalebedenko/eda-horeca-moscow/blob/main/EDA_HoReCa_Moscow.ipynb)
 
-**mri-review — an assistant for reviewing MRI scans**  
-A research skill for an AI agent. If you have a written report, the agent explains the radiologist’s wording in plain language. If you have images, it helps you examine a particular frame and prepare questions for a radiologist. [Explore the skill](https://github.com/metalebedenko/mri-review)
+**mri-review — help with MRI scans and reports**  
+This research skill helps an AI agent explain a written report in plain language. When reviewing images, the agent points to the series and frame behind an observation and helps you prepare questions for a radiologist. [See a sample explanation](https://github.com/metalebedenko/mri-review/blob/main/README.en.md#what-an-explanation-looks-like)
 
 **micromanager — computer access for an AI agent**  
-The owner decides which files the agent can access. When the agent wants to change a file or run a command, the owner can approve or decline the request. [How it works](https://github.com/metalebedenko/micromanager) · [Download v0.0.4](https://github.com/metalebedenko/micromanager/releases/tag/v0.0.4)
+You choose which files the agent can access. When it requests a file change or asks to run a command, you can approve or decline in the terminal. Builds are available for macOS, Windows and Linux. [How approvals work](https://github.com/metalebedenko/micromanager/blob/main/README.en.md) · [Download v0.0.4](https://github.com/metalebedenko/micromanager/releases/tag/v0.0.4)
