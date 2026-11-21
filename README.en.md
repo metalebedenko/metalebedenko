@@ -27,3 +27,6 @@ This research skill helps an AI agent explain a written report in plain language
 
 **micromanager — computer access for an AI agent**  
 You choose which files the agent can access. When it requests a file change or asks to run a command, you can approve or decline in the terminal. Builds are available for macOS, Windows and Linux. [How approvals work](https://github.com/metalebedenko/micromanager/blob/main/README.en.md) · [Download v0.0.4](https://github.com/metalebedenko/micromanager/releases/tag/v0.0.4)
+
+**Hero Limit — a mod for Heroes III: Horn of the Abyss**  
+In single-player games, you and each computer opponent start with one hero. By default, you can each recruit two more from taverns over the whole game. Losing a hero in battle does not give you another hire. [What was checked in game](https://github.com/metalebedenko/hota-hero-limit/blob/main/README.en.md#what-was-checked-in-game) · [v0.1.0 pre-release for HotA 1.8.1](https://github.com/metalebedenko/hota-hero-limit/releases/tag/v0.1.0)

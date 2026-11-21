@@ -27,3 +27,6 @@
 
 **micromanager — доступ ИИ-агента к компьютеру**  
 Вы выбираете, какие файлы доступны агенту. Его запрос на правку или запуск команды можно одобрить или отклонить в терминале. Есть сборки для macOS, Windows и Linux. [Как устроено подтверждение](https://github.com/metalebedenko/micromanager#безопасность) · [Скачать v0.0.4](https://github.com/metalebedenko/micromanager/releases/tag/v0.0.4)
+
+**Hero Limit — мод для Heroes III: Horn of the Abyss**  
+В одиночной партии у человека и компьютера по одному герою на старте. По умолчанию каждый может нанять в таверне ещё двух за всю игру. Если герой погибнет в бою, запас наймов не пополнится. [Что проверено в игре](https://github.com/metalebedenko/hota-hero-limit#игровая-проверка) · [Тестовый выпуск v0.1.0 для HotA 1.8.1](https://github.com/metalebedenko/hota-hero-limit/releases/tag/v0.1.0)
